@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+    .container {
+        width: 640px;
+    }    
+}
+
+/* Header */
+.header-title {
+    text-align: center;
+}
+
+
+/* form add new task */
+.form-add {
+    width: 100%;
+    display: flex;
+}
+.form-add_input {
+    flex: 1;
+    height: 2rem;
+}
+.form-add_submit { }
+
+/* task list */
+.task {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+    padding: .5rem;
+}
+
+.task > h4 {
+    margin: .25rem 0;
+}
